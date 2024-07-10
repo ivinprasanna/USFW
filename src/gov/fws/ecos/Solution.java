@@ -49,10 +49,13 @@ public class Solution extends DAG {
 		DAG g = new DAG(ver, edge);
 		
 		//Calling the method to find the longest directed path.
-		String str = DAG.longestDirectedPath(g,v2);
+		//String str = DAG.longestDirectedPath(g,v2);
 		
 		//Printing the path
-		System.out.println("Longest Path: " +str);
+		//System.out.println("Longest Path: " +str);
+		//System.out.println(DAG.longestPath(g, v2));
+		DAG.longestPathDAG(g, v2);
+		DAG.printLongestPath();
 		
 	}
 	
